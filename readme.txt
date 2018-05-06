@@ -1,0 +1,12 @@
+Apery_WCSC28 の評価関数バイナリを、Aperyの昔の形式に変換するソフトです。
+やねうら王はAperyの昔の形式に対応しているらしいので、
+やねうら王で使いたい方はこのソフトで変換して下さい。
+
+使い方は Apery_WCSC28　の評価関数が含まれている 20180416 というフォルダを、
+apery_eval_wcsc28_format_to_apery_eval_sdt3_format.exe にドラッグ&ドロップするだけです。
+20180416 フォルダの中に、
+KPP_synthesized.bin
+KKP_synthesized.bin
+KK_synthesized.bin
+の3つのファイルが出来上がるので、それら3つのファイルをやねうら王などのソフトの
+適切なフォルダに置いて下さい。
