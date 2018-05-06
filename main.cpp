@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
         ofs.write(reinterpret_cast<char*>(outbuf.data()), outbuf.size() * sizeof(int32_t));
     }
     { // KK
-        std::vector<char> outbuf(81*81*4);
+        std::vector<char> outbuf(81*81*4*2);
         std::fill(std::begin(outbuf), std::end(outbuf), 0);
         std::ofstream ofs((dir + "/KK_synthesized.bin").c_str(), std::ios::binary);
         ofs.write(reinterpret_cast<char*>(outbuf.data()), outbuf.size() * sizeof(char));
